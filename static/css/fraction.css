@@ -1,0 +1,159 @@
+@media screen and (min-width: 768px) {
+    .solveout2 {
+        margin-left: 80px;
+    }
+
+    .box {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        width: 30%;
+        font-size: 18px;
+        line-height: 1.8;
+        background-color: white;
+        border-radius: 9px;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        border-style: groove;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .solveout2 {
+        margin-left: 55px;
+    }
+
+    .box {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        width: 90%;
+        font-size: 18px;
+        line-height: 1.8;
+        background-color: white;
+        border-radius: 9px;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        border-style: groove;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .solveout {
+        margin-left: 30px;
+    }
+}
+
+.in1 {
+    padding-left: 5px;
+    width: 90px;
+    height: 35px;
+    text-align: left;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.in11 {
+    padding-left: 5px;
+    width: 90px;
+    height: 50px;
+    text-align: left;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.out {
+    padding-left: 5px;
+    width: 130px;
+    height: 35px;
+    text-align: left;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.fraction {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lines1 {
+    height: 3px;
+    border: none;
+    color: #000;
+    background-color: #000;
+    font-size: 2px;
+}
+
+.solve {
+    background-color: #3574e9;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+    -moz-border-radius: 10px;
+    height: 35px;
+    vertical-align: bottom;
+    margin-bottom: 5px;
+}
+
+.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+
+.frac>span {
+    display: block;
+    padding: 0.1em;
+}
+
+.frac span.bottom {
+    border-top: thin solid black;
+}
+
+.frac span.symbol {
+    display: none;
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv>div {
+    padding: 10px;
+    border-radius: 3px;
+    background: skyblue;
+    display: inline-block;
+}
+
+#clockdiv div>span {
+    padding: 15px;
+    border-radius: 3px;
+    background: navy;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 15px;
+    color: black;
+}
